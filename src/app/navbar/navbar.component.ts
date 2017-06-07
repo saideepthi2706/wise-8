@@ -15,6 +15,6 @@ export class NavbarComponent implements OnInit {
     this.af.auth.login();
   }
   logout(){
-    this.af.auth.logout();
+   this.af.auth.logout();
   }
 }
